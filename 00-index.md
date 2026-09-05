@@ -1,0 +1,81 @@
+# kb_split index - one file per TOC branch
+
+Split of output/kb_combined.md: same records, same order, same breadcrumb
+convention (each file's header repeats the grammar). One line per file:
+
+- `0000-Treasury-and-Risk-Management.md` - Treasury and Risk Management | 1 sections | 17 KB | TOC orders 0-0
+- `0001-Business-Processes-in-Treasury-and-Risk-Management.md` - Business Processes in Treasury and Risk Management | 4 sections | 7 KB | TOC orders 1-4
+- `0005-Integration-Scenarios.md` - Integration Scenarios | 37 sections | 133 KB | TOC orders 5-42
+- `0043-Roles-in-Treasury-and-Risk-Management.md` - Roles in Treasury and Risk Management | 1 sections | 2 KB | TOC orders 43-43
+- `0044-Authorizations-in-Treasury-and-Risk-Management.md` - Authorizations in Treasury and Risk Management | 1 sections | 35 KB | TOC orders 44-44
+- `0045-Special-Topics-in-Treasury-and-Risk-Management.md` - Special Topics in Treasury and Risk Management | 15 sections | 59 KB | TOC orders 45-59
+- `0061-Master-Data.md` - Master Data | 14 sections | 26 KB | TOC orders 61-74
+- `0075-Treasury-Analytics.md` - Treasury Analytics | 48 sections | 162 KB | TOC orders 75-123
+- `0124-Risk-Management-branch-intro.md` - Risk Management > (branch intro) | 1 sections | 1 KB | TOC orders 124-124
+- `0125-Risk-Management-Terms-in-Risk-Management.md` - Risk Management > Terms in Risk Management | 1 sections | 3 KB | TOC orders 125-125
+- `0126-Risk-Management-Basics-branch-intro.md` - Risk Management > Basics > (branch intro) | 1 sections | 1 KB | TOC orders 126-126
+- `0127-Risk-Management-Basics-Analysis-Structure.md` - Risk Management > Basics > Analysis Structure | 7 sections | 19 KB | TOC orders 127-133
+- `0134-Risk-Management-Basics-Financial-Objects.md` - Risk Management > Basics > Financial Objects | 6 sections | 32 KB | TOC orders 134-139
+- `0140-Risk-Management-Basics-Portfolio-Hierarchies.md` - Risk Management > Basics > Portfolio Hierarchies | 2 sections | 10 KB | TOC orders 140-141
+- `0142-Risk-Management-Basics-Base-Portfolios.md` - Risk Management > Basics > Base Portfolios | 2 sections | 4 KB | TOC orders 142-143
+- `0144-Risk-Management-Basics-Risk-Hierarchy.md` - Risk Management > Basics > Risk Hierarchy | 4 sections | 12 KB | TOC orders 144-147
+- `0148-Risk-Management-Basics-Maturity-Band.md` - Risk Management > Basics > Maturity Band | 2 sections | 4 KB | TOC orders 148-149
+- `0150-Risk-Management-Basics-Results-Database.md` - Risk Management > Basics > Results Database | 2 sections | 8 KB | TOC orders 150-151
+- `0152-Risk-Management-Basics-Parallel-Processing-Control.md` - Risk Management > Basics > Parallel Processing Control | 1 sections | 2 KB | TOC orders 152-152
+- `0153-Risk-Management-Basics-Editing-Generic-Transactions.md` - Risk Management > Basics > Editing Generic Transactions | 21 sections | 129 KB | TOC orders 153-173
+- `0174-Risk-Management-Basics-Price-Calculator-for-Financial-Instru.md` - Risk Management > Basics > Price Calculator for Financial Instruments | 79 sections | 313 KB | TOC orders 174-256
+- `0257-Risk-Management-Basics-Value-at-Risk.md` - Risk Management > Basics > Value at Risk | 19 sections | 65 KB | TOC orders 257-275
+- `0276-Risk-Management-Basics-Reorganization-Tools.md` - Risk Management > Basics > Reorganization Tools | 1 sections | 10 KB | TOC orders 276-276
+- `0277-Risk-Management-Market-Risk-Analyzer.md` - Risk Management > Market Risk Analyzer | 70 sections | 344 KB | TOC orders 277-347
+- `0348-Risk-Management-Credit-Risk-Analyzer.md` - Risk Management > Credit Risk Analyzer | 62 sections | 192 KB | TOC orders 348-409
+- `0410-Risk-Management-Portfolio-Analyzer.md` - Risk Management > Portfolio Analyzer | 13 sections | 59 KB | TOC orders 410-422
+- `0423-Risk-Management-Accounting-Analyzer.md` - Risk Management > Accounting Analyzer | 4 sections | 22 KB | TOC orders 423-426
+- `0427-Exposure-Management-2-0.md` - Exposure Management 2.0 | 16 sections | 60 KB | TOC orders 427-442
+- `0443-FX-Exposure-Management.md` - FX Exposure Management | 2 sections | 12 KB | TOC orders 443-444
+- `0445-Hedge-Management-of-FX-Risks.md` - Hedge Management of FX Risks | 74 sections | 360 KB | TOC orders 445-518
+- `0519-Transaction-Manager-branch-intro.md` - Transaction Manager > (branch intro) | 1 sections | 12 KB | TOC orders 519-519
+- `0520-Transaction-Manager-Terms-in-Financial-Transaction-Managemen.md` - Transaction Manager > Terms in Financial Transaction Management | 54 sections | 159 KB | TOC orders 520-575
+- `0576-Transaction-Manager-Overview-of-Financial-Instruments.md` - Transaction Manager > Overview of Financial Instruments | 150 sections | 534 KB | TOC orders 576-727
+- `0728-Transaction-Manager-Financial-Transaction-Management.md` - Transaction Manager > Financial Transaction Management | 98 sections | 403 KB | TOC orders 728-831
+- `0832-Transaction-Manager-Treasury-Correspondence.md` - Transaction Manager > Treasury Correspondence | 16 sections | 68 KB | TOC orders 832-847
+- `0848-Transaction-Manager-External-Accounts.md` - Transaction Manager > External Accounts | 27 sections | 91 KB | TOC orders 848-874
+- `0875-Transaction-Manager-Securities-Account-Management.md` - Transaction Manager > Securities Account Management | 33 sections | 100 KB | TOC orders 875-908
+- `0909-Transaction-Manager-Corporate-Action.md` - Transaction Manager > Corporate Action | 7 sections | 18 KB | TOC orders 909-915
+- `0916-Transaction-Manager-Process-Intragroup-Trading-of-Securities.md` - Transaction Manager > Process Intragroup Trading of Securities Positions for Consolidation | 3 sections | 20 KB | TOC orders 916-918
+- `0920-Transaction-Manager-Accounting-Terms-in-Position-Management-.md` - Transaction Manager > Accounting > Terms in Position Management and Treasury Accounting | 29 sections | 88 KB | TOC orders 920-949
+- `0950-Transaction-Manager-Accounting-Posting.md` - Transaction Manager > Accounting > Posting | 14 sections | 34 KB | TOC orders 950-963
+- `0964-Transaction-Manager-Accounting-Payment.md` - Transaction Manager > Accounting > Payment | 115 sections | 195 KB | TOC orders 964-1078
+- `1079-Transaction-Manager-Accounting-Derived-Business-Transactions.md` - Transaction Manager > Accounting > Derived Business Transactions | 14 sections | 68 KB | TOC orders 1079-1092
+- `1093-Transaction-Manager-Accounting-Account-Assignment-Transfer.md` - Transaction Manager > Accounting > Account Assignment Transfer | 2 sections | 10 KB | TOC orders 1093-1094
+- `1095-Transaction-Manager-Accounting-Period-End-Closing.md` - Transaction Manager > Accounting > Period-End Closing | 78 sections | 317 KB | TOC orders 1095-1172
+- `1173-Transaction-Manager-Accounting-Simulate-Period-End-Closing.md` - Transaction Manager > Accounting > Simulate Period-End Closing | 2 sections | 12 KB | TOC orders 1173-1174
+- `1175-Transaction-Manager-Accounting-Execute-Valuation-Class-Trans.md` - Transaction Manager > Accounting > Execute Valuation Class Transfer | 2 sections | 8 KB | TOC orders 1175-1176
+- `1177-Transaction-Manager-Accounting-Reverse-Valuation-Class-Trans.md` - Transaction Manager > Accounting > Reverse Valuation Class Transfer | 1 sections | 4 KB | TOC orders 1177-1177
+- `1178-Transaction-Manager-Accounting-Account-Assignment-References.md` - Transaction Manager > Accounting > Account Assignment References | 4 sections | 25 KB | TOC orders 1178-1181
+- `1182-Transaction-Manager-Accounting-Portfolio-Transfer.md` - Transaction Manager > Accounting > Portfolio Transfer | 1 sections | 4 KB | TOC orders 1182-1182
+- `1183-Transaction-Manager-Accounting-Display-Treasury-Payments.md` - Transaction Manager > Accounting > Display Treasury Payments | 1 sections | 4 KB | TOC orders 1183-1183
+- `1184-Transaction-Manager-Accounting-Display-Payment-Schedules.md` - Transaction Manager > Accounting > Display Payment Schedules | 1 sections | 2 KB | TOC orders 1184-1184
+- `1185-Transaction-Manager-Accounting-Treasury-Posting-Journal-Clas.md` - Transaction Manager > Accounting > Treasury Posting Journal - Classic | 1 sections | 6 KB | TOC orders 1185-1185
+- `1186-Transaction-Manager-Accounting-Posting-Overview.md` - Transaction Manager > Accounting > Posting Overview | 1 sections | 3 KB | TOC orders 1186-1186
+- `1187-Transaction-Manager-Accounting-Withholding-Tax.md` - Transaction Manager > Accounting > Withholding Tax | 7 sections | 10 KB | TOC orders 1187-1193
+- `1194-Transaction-Manager-Hedge-Accounting-branch-intro.md` - Transaction Manager > Hedge Accounting > (branch intro) | 1 sections | 1 KB | TOC orders 1194-1194
+- `1195-Transaction-Manager-Hedge-Accounting-Hedge-Accounting-for-Ex.md` - Transaction Manager > Hedge Accounting > Hedge Accounting for Exposure Items | 59 sections | 408 KB | TOC orders 1195-1253
+- `1254-Transaction-Manager-Hedge-Accounting-Hedge-Accounting-for-Po.md` - Transaction Manager > Hedge Accounting > Hedge Accounting for Positions (P-HA) | 28 sections | 117 KB | TOC orders 1254-1281
+- `1282-Transaction-Manager-Hedge-Accounting-Hedge-Accounting-for-Ex.md` - Transaction Manager > Hedge Accounting > Hedge Accounting for Exposures (E-HA) | 67 sections | 194 KB | TOC orders 1282-1349
+- `1350-Transaction-Manager-BAPIs-for-the-Transaction-Manager.md` - Transaction Manager > BAPIs for the Transaction Manager | 1 sections | 4 KB | TOC orders 1350-1350
+- `1352-Transaction-Manager-Information-System.md` - Transaction Manager > Information System | 138 sections | 455 KB | TOC orders 1352-1493
+- `1494-Transaction-Manager-Currency-Changeover.md` - Transaction Manager > Currency Changeover | 5 sections | 54 KB | TOC orders 1494-1498
+- `1499-Transaction-Manager-Country-Region-Specific-Functions.md` - Transaction Manager > Country/Region-Specific Functions | 1 sections | 1 KB | TOC orders 1499-1499
+- `1500-Market-Data-Management.md` - Market Data Management | 39 sections | 99 KB | TOC orders 1500-1538
+- `1539-CDS-Views-for-Treasury-and-Risk-Management.md` - CDS Views for Treasury and Risk Management | 1 sections | 19 KB | TOC orders 1539-1539
+- `1540-Data-Management-in-Treasury-and-Risk-Management.md` - Data Management in Treasury and Risk Management | 41 sections | 151 KB | TOC orders 1540-1581
+- `1582-Apps-for-Treasury-and-Risk-Management.md` - Apps for Treasury and Risk Management | 1 sections | 17 KB | TOC orders 1582-1582
+- `1583-Treasury-and-Risk-Management-FAQs.md` - Treasury and Risk Management: FAQs | 1 sections | 13 KB | TOC orders 1583-1583
+- `1584-APIs-for-Treasury-and-Risk-Management.md` - APIs for Treasury and Risk Management | 1 sections | 1 KB | TOC orders 1584-1584
+- `1585-Treasury-Position-Flows-Read.md` - Treasury Position Flows - Read | 3 sections | 14 KB | TOC orders 1585-1587
+- `1588-Line-Item-of-Treasury-Posting-Journal-Entry-Read.md` - Line Item of Treasury Posting Journal Entry - Read | 3 sections | 15 KB | TOC orders 1588-1590
+- `1591-Foreign-Exchange-Exposure.md` - Foreign Exchange Exposure | 12 sections | 28 KB | TOC orders 1591-1602
+- `1603-Financial-Transaction-Net-Present-Value.md` - Financial Transaction Net Present Value | 7 sections | 12 KB | TOC orders 1603-1609
+- `1610-Treasury-Trade-Request-Read-Create.md` - Treasury Trade Request - Read, Create | 3 sections | 17 KB | TOC orders 1610-1612
+
+1585 sections total across 74 files.
